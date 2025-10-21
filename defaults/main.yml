@@ -6,10 +6,7 @@ firewall_flush_rules_and_chains: true
 
 firewall_template: firewall.bash.j2
 firewall_allowed_tcp_ports:
-  - "22"
-  - "25"
-  - "80"
-  - "443"
+  - "6022"
 firewall_allowed_udp_ports: []
 firewall_forwarded_tcp_ports: []
 firewall_forwarded_udp_ports: []
